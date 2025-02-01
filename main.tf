@@ -1,4 +1,4 @@
-# default settings (AES256 encryption, no extra tagging, etc.),
+# default settings (AES256 encryption, no extra resource tagging, etc.),
 resource "aws_ecr_repository_creation_template" "ecr_repository_creation_template" {
   prefix               = "ROOT"
   description          = "Main Proxy template"
